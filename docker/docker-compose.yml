@@ -52,8 +52,10 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_DB=postgres
   superset:
-    image: apache/superset:latest
     container_name: superset
     hostname: superset
     ports:
-      - "8080:8088"
+      - "8088:8088"
+    build:
+      context: .
+      dockerfile: Dockerfile-superset
