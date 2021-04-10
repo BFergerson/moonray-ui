@@ -1,0 +1,2 @@
+FROM apache/skywalking-oap-server:8.4.0-es7
+ADD ./mysql-connector-java-8.0.23.jar /skywalking/oap-libs/mysql-connector-java-8.0.23.jar

@@ -1,0 +1,52 @@
+version: '3.3'
+services:
+  skywalking-oap:
+    container_name: skywalking-oap
+    hostname: skywalking-oap
+    restart: on-failure
+    depends_on:
+      - mysql
+    links:
+      - mysql
+    ports:
+      - "11800:11800"
+      - "12800:12800"
+    environment:
+      - SW_STORAGE=mysql
+      - SW_JDBC_URL=jdbc:mysql://mysql:3306/mysql
+      - SW_DATA_SOURCE_USER=root
+      - SW_DATA_SOURCE_PASSWORD=123456
+    build:
+      context: .
+      dockerfile: Dockerfile-skywalking-oap
+  spp-example-webapp:
+    container_name: spp-example-webapp
+    hostname: spp-example-webapp
+    depends_on:
+      - skywalking-oap
+    links:
+      - skywalking-oap
+    build:
+      context: .
+      dockerfile: Dockerfile-spp-example-webapp
+  skywalking-ui:
+    image: apache/skywalking-ui:8.4.0
+    container_name: skywalking-ui
+    hostname: skywalking-ui
+    ports:
+      - "9999:8080"
+    depends_on:
+      - skywalking-oap
+    links:
+      - skywalking-oap
+    environment:
+      - SW_OAP_ADDRESS=skywalking-oap:12800
+  mysql:
+    image: mysql:8.0.23
+    container_name: mysql
+    hostname: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=mysql
