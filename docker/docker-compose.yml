@@ -5,15 +5,15 @@ services:
     hostname: skywalking-oap
     restart: on-failure
     depends_on:
-      - mysql
+      - postgres
     links:
-      - mysql
+      - postgres
     ports:
       - "11800:11800"
       - "12800:12800"
     environment:
-      - SW_STORAGE=mysql
-      - SW_JDBC_URL=jdbc:mysql://mysql:3306/mysql
+      #- SW_STORAGE=postgresql
+      - SW_JDBC_URL=jdbc:postgresql://postgres:5432/postgres
       - SW_DATA_SOURCE_USER=root
       - SW_DATA_SOURCE_PASSWORD=123456
     build:
@@ -41,12 +41,19 @@ services:
       - skywalking-oap
     environment:
       - SW_OAP_ADDRESS=skywalking-oap:12800
-  mysql:
-    image: mysql:8.0.23
-    container_name: mysql
-    hostname: mysql
+  postgres:
+    image: postgres:9.6.21
+    container_name: postgres
+    hostname: postgres
     ports:
-      - "3306:3306"
+      - "5432:5432"
     environment:
-      - MYSQL_ROOT_PASSWORD=123456
-      - MYSQL_DATABASE=mysql
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=postgres
+  superset:
+    image: apache/superset:latest
+    container_name: superset
+    hostname: superset
+    ports:
+      - "8080:8088"
