@@ -3,6 +3,7 @@ import java.net.URL
 
 plugins {
     id("java")
+    id("com.avast.gradle.docker-compose") version "0.14.3"
 }
 
 repositories {
@@ -25,4 +26,14 @@ tasks {
             println("Downloaded Apache SkyWalking")
         }
     }
+
+    getByName("composeUp") {
+        dependsOn("downloadSkywalking")
+    }
+}
+
+dockerCompose {
+    dockerComposeWorkingDirectory = "./docker"
+    useComposeFiles = listOf("./docker-compose.yml")
+    //captureContainersOutput = true
 }

@@ -2,17 +2,15 @@
 
 ### Requirements
 - Docker
-- Docker Compose
 
 ### Load containers
 ```sh
 git clone https://github.com/sourceplusplus/orbital
-cd orbital/docker
-docker-compose up
+cd orbital
+./gradlew composeUp && sleep 10 && ./setup-superset.sh
 ```
 
 ### Setup Superset
-- Execute `setup-superset.sh`
 - Add SkyWalking database to Superset
   - `postgresql+psycopg2://postgres:123456@postgres:5432/postgres`
 
