@@ -17,5 +17,5 @@ docker-compose up
   - `postgresql+psycopg2://postgres:123456@postgres:5432/postgres`
 
 ### Available Services
-- Apache Superset: http://localhost:8088
+- Apache Superset: http://localhost:8888
 - Apache SkyWalking: http://localhost:9999
