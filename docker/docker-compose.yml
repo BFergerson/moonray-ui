@@ -70,6 +70,6 @@ services:
     command: ["--config=/etc/otel-collector-config.yaml"]
     volumes:
       - ./otel-collector-config.yaml:/etc/otel-collector-config.yaml
-    ports:
+#    ports:
 #      - "13133:13133" # health_check extension
 #      - "55678"       # OpenCensus receiver
