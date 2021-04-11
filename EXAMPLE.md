@@ -1,4 +1,4 @@
-### all_percentile table
+### SkyWalking all_percentile table
 ```csv
 id,value,cal_precision,dataset,time_bucket
 202104110124,"0,200|1,200|2,370|3,370|4,370",10,"14,1|37,1|20,1",202104110124
