@@ -12,8 +12,8 @@ select
   coalesce(substr(split_part(value, '|', 5), 3)::integer, 0) p99
 from all_percentile ap
 right join (
-  SELECT to_char(dd, 'YYYYMMDDHH24MI') id
-  FROM generate_series (
+  select to_char(dd, 'YYYYMMDDHH24MI') id
+  from generate_series (
     current_timestamp - '15 minutes'::interval,
     current_timestamp,
     '1 minute'::interval
