@@ -12,5 +12,5 @@ docker-compose up
 ```
 
 ### Available Services
-- Superset: http://localhost:8088
+- Apache Superset: http://localhost:8088
 - Apache SkyWalking: http://localhost:9999
