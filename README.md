@@ -14,6 +14,9 @@ cd orbital
 - Add SkyWalking database to Superset
   - `postgresql+psycopg2://postgres:123456@postgres:5432/postgres`
 
+### Setup SkyWalking
+- Click "Auto" in the top right corner to view charts
+
 ### Available Services
 - Apache Superset: http://localhost:8888
 - Apache SkyWalking: http://localhost:9999
