@@ -1,5 +1,3 @@
-# orbital
-
 ### all_percentile table
 ```csv
 id,value,cal_precision,dataset,time_bucket
