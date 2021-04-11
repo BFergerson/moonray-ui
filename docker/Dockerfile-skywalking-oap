@@ -1,2 +1,28 @@
-FROM apache/skywalking-oap-server:8.4.0-es7
-ADD ./mysql-connector-java-8.0.23.jar /skywalking/oap-libs/mysql-connector-java-8.0.23.jar
+FROM adoptopenjdk/openjdk11:alpine
+USER root
+WORKDIR /skywalking
+
+RUN set -eux; \
+    rm -rf "config/log4j2.xml"; \
+    rm -rf "webapp"; rm -rf "agent";
+
+COPY docker-entrypoint.sh .
+RUN mkdir ext-config; \
+    mkdir ext-libs;
+
+RUN apk add --no-cache \
+    bash
+
+EXPOSE 12800 11800 1234
+
+ENTRYPOINT ["bash", "docker-entrypoint.sh"]
+
+COPY ./apache-skywalking-apm-es7-8.5.0.tar.gz /skywalking/apache-skywalking-apm-es7-8.5.0.tar.gz
+RUN tar -xzf apache-skywalking-apm-es7-8.5.0.tar.gz --strip-components=1
+
+COPY docker-entrypoint.sh .
+ADD docker-entrypoint.sh /skywalking/docker-entrypoint.sh
+RUN chmod 755 /skywalking/docker-entrypoint.sh
+RUN chmod 755 ./docker-entrypoint.sh
+
+ADD ./postgresql-42.2.19.jar /skywalking/oap-libs/postgresql-42.2.19.jar
