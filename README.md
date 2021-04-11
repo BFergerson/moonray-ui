@@ -20,3 +20,4 @@ FROM generate_series(
 ) dd on (ap.id = dd.id);
 ```
 
+![](misc/example.gif)
