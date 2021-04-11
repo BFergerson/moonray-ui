@@ -14,9 +14,9 @@ tasks {
     register("downloadSkywalking") {
         doLast {
             println("Downloading Apache SkyWalking")
-            val f = File(projectDir, "docker/apache-skywalking-apm-es7-8.4.0.tar.gz")
+            val f = File(projectDir, "docker/apache-skywalking-apm-es7-8.5.0.tar.gz")
             if (!f.exists()) {
-                URL("https://downloads.apache.org/skywalking/8.4.0/apache-skywalking-apm-es7-8.4.0.tar.gz")
+                URL("https://dist.apache.org/repos/dist/dev/skywalking/8.5.0/apache-skywalking-apm-es7-8.5.0.tar.gz")
                     .openStream().use { input ->
                         FileOutputStream(f).use { output ->
                             input.copyTo(output)
