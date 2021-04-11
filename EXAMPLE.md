@@ -36,6 +36,8 @@ right join (
 ) dd on (ap.id = dd.id);
 ```
 
+---
+
 ### Equivalent graphs
 
 ![](misc/example.gif)
