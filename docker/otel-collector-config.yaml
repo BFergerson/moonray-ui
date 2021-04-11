@@ -1,0 +1,35 @@
+extensions:
+  health_check:
+# A receiver is how data gets into the OpenTelemetry Collector
+receivers:
+  # Set Prometheus Receiver to collects metrics from targets
+  # It’s supports the full set of Prometheus configuration
+  prometheus:
+    config:
+      scrape_configs:
+        - job_name: 'otel-collector'
+          scrape_interval: 10s
+          static_configs:
+            # Replace the IP to your VMs‘s IP which has installed Node Exporter
+            - targets: [ 'spp-example-webapp:9100' ]
+
+processors:
+  batch:
+
+# An exporter is how data gets sent to different systems/back-ends
+exporters:
+  # Exports metrics via gRPC using OpenCensus format
+  opencensus:
+    endpoint: "skywalking-oap:11800" # The OAP Server address
+    insecure: true
+  logging:
+    logLevel: debug
+
+service:
+  pipelines:
+    metrics:
+      receivers: [prometheus]
+      processors: [batch]
+      exporters: [logging, opencensus]
+
+  extensions: [health_check]

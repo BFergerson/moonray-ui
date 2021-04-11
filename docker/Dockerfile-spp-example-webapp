@@ -1,4 +1,10 @@
 FROM openjdk:11-jre
+
+COPY ./node_exporter-1.1.2.linux-amd64.tar.gz /node_exporter-1.1.2.linux-amd64.tar.gz
+RUN tar -xzf ./node_exporter-1.1.2.linux-amd64.tar.gz
+#RUN nohup bash -c "/node_exporter-*.*-amd64/node_exporter &"
+#put nohup hack in spp-example-webapp-boot jar
+
 ADD ./spp-example-webapp-boot-1.0-SNAPSHOT.zip /spp-example-webapp-boot-1.0-SNAPSHOT.zip
 
 COPY ./apache-skywalking-apm-es7-8.5.0.tar.gz /apache-skywalking-apm-es7-8.5.0.tar.gz

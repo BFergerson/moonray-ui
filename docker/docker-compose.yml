@@ -16,16 +16,22 @@ services:
       - SW_JDBC_URL=jdbc:postgresql://postgres:5432/postgres
       - SW_DATA_SOURCE_USER=postgres
       - SW_DATA_SOURCE_PASSWORD=123456
+      - SW_OTEL_RECEIVER=default
+      - SW_OTEL_RECEIVER_ENABLED_OC_RULES=vm
     build:
       context: .
       dockerfile: Dockerfile-skywalking-oap
   spp-example-webapp:
     container_name: spp-example-webapp
     hostname: spp-example-webapp
+#    ports:
+#      - "9100:9100"
     depends_on:
       - skywalking-oap
+      - otel-collector
     links:
       - skywalking-oap
+      - otel-collector
     build:
       context: .
       dockerfile: Dockerfile-spp-example-webapp
@@ -59,3 +65,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-superset
+  otel-collector:
+    image: otel/opentelemetry-collector:0.19.0
+    command: ["--config=/etc/otel-collector-config.yaml"]
+    volumes:
+      - ./otel-collector-config.yaml:/etc/otel-collector-config.yaml
+    ports:
+#      - "13133:13133" # health_check extension
+#      - "55678"       # OpenCensus receiver
