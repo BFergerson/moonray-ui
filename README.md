@@ -2,12 +2,21 @@
 
 ### Requirements
 - Docker
+- Git
 
 ### Load containers
+#### Linux
 ```sh
 git clone https://github.com/sourceplusplus/orbital
 cd orbital
 ./gradlew composeUp && sleep 10 && ./setup-superset.sh
+```
+
+#### Windows
+```sh
+git clone https://github.com/sourceplusplus/orbital
+cd orbital
+gradlew.bat composeUp && timeout 10 && setup-superset.bat
 ```
 
 ### Available Services
