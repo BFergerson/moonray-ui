@@ -35,5 +35,5 @@ tasks {
 dockerCompose {
     dockerComposeWorkingDirectory = "./docker"
     useComposeFiles = listOf("./docker-compose.yml")
-    //captureContainersOutput = true
+    captureContainersOutput = true
 }
