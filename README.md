@@ -2,21 +2,12 @@
 
 ### Requirements
 - Docker
-- Git
 
 ### Load containers
-#### Linux
 ```sh
 git clone https://github.com/sourceplusplus/orbital
 cd orbital
 ./gradlew composeUp && sleep 10 && ./setup-superset.sh
-```
-
-#### Windows
-```sh
-git clone https://github.com/sourceplusplus/orbital
-cd orbital
-gradlew.bat composeUp && timeout 10 && setup-superset.bat
 ```
 
 ### Available Services
@@ -29,3 +20,4 @@ gradlew.bat composeUp && timeout 10 && setup-superset.bat
 
 ## Using SkyWalking
 - Click "Auto" in the top right corner if no charts displayed
+- Change timezone in bottom right corner if no charts displayed
