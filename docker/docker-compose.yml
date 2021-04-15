@@ -51,8 +51,8 @@ services:
     image: postgres:9.6.21
     container_name: postgres
     hostname: postgres
-    ports:
-      - "5432:5432"
+#     ports:
+#       - "5432:5432"
     environment:
       - POSTGRES_PASSWORD=123456
       - POSTGRES_USER=postgres
