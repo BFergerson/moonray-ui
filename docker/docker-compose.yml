@@ -66,10 +66,12 @@ services:
       context: .
       dockerfile: Dockerfile-superset
   otel-collector:
-    image: otel/opentelemetry-collector:0.19.0
+    container_name: otel-collector
+    hostname: otel-collector
     command: ["--config=/etc/otel-collector-config.yaml"]
-    volumes:
-      - ./otel-collector-config.yaml:/etc/otel-collector-config.yaml
+    build:
+      context: .
+      dockerfile: Dockerfile-otel-collector
 #    ports:
 #      - "13133:13133" # health_check extension
 #      - "55678"       # OpenCensus receiver
