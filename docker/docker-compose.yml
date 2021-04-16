@@ -8,9 +8,9 @@ services:
       - postgres
     links:
       - postgres
-    ports:
-      - "11800:11800"
-      - "12800:12800"
+#     ports:
+#       - "11800:11800"
+#       - "12800:12800"
     environment:
       - SW_STORAGE=postgresql
       - SW_JDBC_URL=jdbc:postgresql://postgres:5432/postgres
