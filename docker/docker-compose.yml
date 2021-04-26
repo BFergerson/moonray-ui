@@ -1,6 +1,7 @@
 version: '3.3'
 services:
   skywalking-oap:
+    image: apache/skywalking-oap-server:8.5.0-es7
     container_name: skywalking-oap
     hostname: skywalking-oap
     restart: on-failure
@@ -18,9 +19,6 @@ services:
       - SW_DATA_SOURCE_PASSWORD=123456
       - SW_OTEL_RECEIVER=default
       - SW_OTEL_RECEIVER_ENABLED_OC_RULES=vm
-    build:
-      context: .
-      dockerfile: Dockerfile-skywalking-oap
   spp-example-webapp:
     container_name: spp-example-webapp
     hostname: spp-example-webapp
@@ -57,6 +55,7 @@ services:
       - POSTGRES_PASSWORD=123456
       - POSTGRES_USER=postgres
       - POSTGRES_DB=postgres
+      - POSTGRES_HOST_AUTH_METHOD=md5
   superset:
     container_name: superset
     hostname: superset
