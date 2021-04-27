@@ -1,8 +1,10 @@
 ## Setup
 
 ### Requirements
-- Docker
+- JDK 11
 - Git
+- Docker
+- Docker Compose
 
 ### Load containers
 #### Linux
@@ -20,8 +22,8 @@ gradlew.bat composeUp && timeout 10 && setup-superset.bat
 ```
 
 ### Available Services
-- Apache Superset: http://localhost:8888
-- Apache SkyWalking: http://localhost:9999
+- Apache Superset: http://167.99.134.5:8888
+- Apache SkyWalking: http://167.99.134.5:9999
 
 ## Using Superset
 - Add SkyWalking database to Superset
