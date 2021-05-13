@@ -1,0 +1,1472 @@
+{
+  "dashboards": [
+    {
+      "__Dashboard__": {
+        "css": "",
+        "dashboard_title": "VM",
+        "description": null,
+        "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 10, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 3, \"import_time\": 1620926360}",
+        "position_json": "{\"CHART-Ej_PR0MGc5\": {\"children\": [], \"id\": \"CHART-Ej_PR0MGc5\", \"meta\": {\"chartId\": 9, \"height\": 50, \"sliceName\": \"Network Status\", \"uuid\": \"0f27fdb6-05ec-48ff-bd1c-2d4a9314492d\", \"width\": 4}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"ROW-Dvzi9GGYDb\"], \"type\": \"CHART\"}, \"CHART-IEqFFd1ray\": {\"children\": [], \"id\": \"CHART-IEqFFd1ray\", \"meta\": {\"chartId\": 13, \"height\": 50, \"sliceName\": \"Filefd Allocated\", \"uuid\": \"6626aa67-5e1b-4b60-83cd-627550c5f1fb\", \"width\": 4}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"ROW-Dvzi9GGYDb\"], \"type\": \"CHART\"}, \"CHART-Q_XjS5paYM\": {\"children\": [], \"id\": \"CHART-Q_XjS5paYM\", \"meta\": {\"chartId\": 14, \"height\": 50, \"sliceName\": \"Disk R/W (KB/s)\", \"uuid\": \"b3395290-e44a-4f09-a4a8-1d0626cb25d8\", \"width\": 4}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"ROW-1f5u3RigZ\"], \"type\": \"CHART\"}, \"CHART-UbPHZ6163Y\": {\"children\": [], \"id\": \"CHART-UbPHZ6163Y\", \"meta\": {\"chartId\": 10, \"height\": 50, \"sliceName\": \"Memory RAM (MB)\", \"uuid\": \"67af7a09-f4f6-4e9a-ac06-c4c075610ef4\", \"width\": 4}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"ROW-xVb1S-qdA\"], \"type\": \"CHART\"}, \"CHART-c8NwMC_MQ3\": {\"children\": [], \"id\": \"CHART-c8NwMC_MQ3\", \"meta\": {\"chartId\": 11, \"height\": 50, \"sliceName\": \"Memory Swap (MB)\", \"uuid\": \"898654f7-ccea-44d1-9380-1c45c26527ad\", \"width\": 4}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"ROW-1f5u3RigZ\"], \"type\": \"CHART\"}, \"CHART-dpoqOAFJIc\": {\"children\": [], \"id\": \"CHART-dpoqOAFJIc\", \"meta\": {\"chartId\": 12, \"height\": 50, \"sliceName\": \"Network Bandwidth Usage (KB/s)\", \"uuid\": \"6fbe74f9-0157-4152-a6d6-988593697366\", \"width\": 4}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"ROW-Dvzi9GGYDb\"], \"type\": \"CHART\"}, \"CHART-kOKzpAqdNT\": {\"children\": [], \"id\": \"CHART-kOKzpAqdNT\", \"meta\": {\"chartId\": 15, \"height\": 50, \"sliceName\": \"File System Mountpoint Usage (%)\", \"uuid\": \"3f44d379-bd22-4fac-a010-a1cc1b6a4e25\", \"width\": 4}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"ROW-1f5u3RigZ\"], \"type\": \"CHART\"}, \"CHART-romM6YJZvU\": {\"children\": [], \"id\": \"CHART-romM6YJZvU\", \"meta\": {\"chartId\": 8, \"height\": 50, \"sliceName\": \"CPU Load\", \"uuid\": \"4558670a-06be-4c97-b7cc-2cfb2f5d9d33\", \"width\": 4}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"ROW-xVb1S-qdA\"], \"type\": \"CHART\"}, \"CHART-uQhtdUuJnT\": {\"children\": [], \"id\": \"CHART-uQhtdUuJnT\", \"meta\": {\"chartId\": 7, \"height\": 50, \"sliceName\": \"CPU Average Used (%)\", \"uuid\": \"55c9d05c-cbd9-4cff-a899-f5bebf9e5f06\", \"width\": 4}, \"parents\": [\"ROOT_ID\", \"GRID_ID\", \"ROW-xVb1S-qdA\"], \"type\": \"CHART\"}, \"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [\"ROW-xVb1S-qdA\", \"ROW-1f5u3RigZ\", \"ROW-Dvzi9GGYDb\"], \"id\": \"GRID_ID\", \"parents\": [\"ROOT_ID\"], \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"meta\": {\"text\": \"VM\"}, \"type\": \"HEADER\"}, \"ROOT_ID\": {\"children\": [\"GRID_ID\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"ROW-1f5u3RigZ\": {\"children\": [\"CHART-c8NwMC_MQ3\", \"CHART-kOKzpAqdNT\", \"CHART-Q_XjS5paYM\"], \"id\": \"ROW-1f5u3RigZ\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\"], \"type\": \"ROW\"}, \"ROW-Dvzi9GGYDb\": {\"children\": [\"CHART-dpoqOAFJIc\", \"CHART-Ej_PR0MGc5\", \"CHART-IEqFFd1ray\"], \"id\": \"ROW-Dvzi9GGYDb\", \"meta\": {\"0\": \"ROOT_ID\", \"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\"], \"type\": \"ROW\"}, \"ROW-xVb1S-qdA\": {\"children\": [\"CHART-uQhtdUuJnT\", \"CHART-romM6YJZvU\", \"CHART-UbPHZ6163Y\"], \"id\": \"ROW-xVb1S-qdA\", \"meta\": {\"0\": \"ROOT_ID\", \"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"GRID_ID\"], \"type\": \"ROW\"}}",
+        "slices": [
+          {
+            "__Slice__": {
+              "cache_timeout": null,
+              "datasource_name": "public.meter_vm_cpu_average_used 05/11/2021 18:13:48",
+              "datasource_type": "table",
+              "id": 7,
+              "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"41__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"to_timestamp\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"system_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 157, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"System\", \"optionName\": \"metric_ocf6u029ee_kfhoc0zlfx\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"softirq_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 158, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"SoftIrq\", \"optionName\": \"metric_u4r29s6lgs_9ivv54qd91h\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"idle_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 159, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Idle\", \"optionName\": \"metric_44jbom4gtft_ctaby7wy4kq\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"steal_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 160, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Steal\", \"optionName\": \"metric_yn8qke7e3o_ugvly4j9nej\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"irq_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 161, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Irq\", \"optionName\": \"metric_zuh9y2ownj_wcp5vvime2l\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"iowait_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 162, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"IOWait\", \"optionName\": \"metric_95skgy5xp7_3hvpmqnb2gx\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"user_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 163, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"User\", \"optionName\": \"metric_4pfuo53r367_ufp2soxc75\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"nice_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 164, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Nice\", \"optionName\": \"metric_67smw7u5wkn_au8ipy9seqk\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 7, \"datasource_name\": \"meter_vm_cpu_average_used 05/11/2021 18:13:48\", \"schema\": \"public\", \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+              "slice_name": "CPU Average Used (%)",
+              "viz_type": "line"
+            }
+          },
+          {
+            "__Slice__": {
+              "cache_timeout": null,
+              "datasource_name": "public.meter_vm_cpu_load 05/11/2021 18:32:46",
+              "datasource_type": "table",
+              "id": 8,
+              "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"42__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"to_timestamp\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"cpu_load_1\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 166, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"CPU Load 1\", \"optionName\": \"metric_7auqq1ulnxv_j5f1rgeyjqi\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"cpu_load_5\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 167, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"CPU Load 5\", \"optionName\": \"metric_u2mj27wzh1_90qs5iyr1xh\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"cpu_load_15\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 168, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"CPU Load 15\", \"optionName\": \"metric_dx1mfrvplwa_ul3borptsnb\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -15, minute) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 8, \"datasource_name\": \"meter_vm_cpu_load 05/11/2021 18:32:46\", \"schema\": \"public\", \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+              "slice_name": "CPU Load",
+              "viz_type": "line"
+            }
+          },
+          {
+            "__Slice__": {
+              "cache_timeout": null,
+              "datasource_name": "public.meter_vm 05/11/2021 18:47:23",
+              "datasource_type": "table",
+              "id": 9,
+              "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"43__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"to_timestamp\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"tcp_curr_estab\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 170, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"TCP Curr Estab\", \"optionName\": \"metric_vzxl14wy0dm_v4o24crhfub\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"tcp_tw\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 171, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"TCP TW\", \"optionName\": \"metric_c85fvhy184_t58wnkw7zzf\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"tcp_alloc\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 172, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"TCP Alloc\", \"optionName\": \"metric_b70lw98gotr_5acqb738vsv\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"sockets_used\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 173, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Sockets Used\", \"optionName\": \"metric_cofiq9gcqrl_1bxe95z3v8f\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"udp_inuse\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 174, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"UDP Inuse\", \"optionName\": \"metric_6ezsh3jysax_7isxhx97iei\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -15, minute) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 9, \"datasource_name\": \"meter_vm 05/11/2021 18:47:23\", \"schema\": \"public\", \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+              "slice_name": "Network Status",
+              "viz_type": "line"
+            }
+          },
+          {
+            "__Slice__": {
+              "cache_timeout": null,
+              "datasource_name": "public.meter_vm_memory 05/11/2021 18:54:23",
+              "datasource_type": "table",
+              "id": 10,
+              "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"44__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"to_timestamp\", \"groupby\": [], \"label_colors\": {}, \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Memory Available\", \"optionName\": \"metric_dfe5dlosv1c_osllh1pqscp\", \"sqlExpression\": \"MAX(memory_available) / power(1024,2)\"}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Memory Used\", \"optionName\": \"metric_k8btamzyii_79tij4907i9\", \"sqlExpression\": \"MAX(memory_used) / power(1024,2)\"}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"stacked_style\": \"stack\", \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -15, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"area\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 10, \"datasource_name\": \"meter_vm_memory 05/11/2021 18:54:23\", \"schema\": \"public\", \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+              "slice_name": "Memory RAM (MB)",
+              "viz_type": "area"
+            }
+          },
+          {
+            "__Slice__": {
+              "cache_timeout": null,
+              "datasource_name": "public.meter_vm_memory_swap 05/11/2021 19:02:48",
+              "datasource_type": "table",
+              "id": 11,
+              "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"45__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"to_timestamp\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"memory_swap_free\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 180, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Memory Swap Free\", \"optionName\": \"metric_pzbs69ehpp7_88hvsdwbwga\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"memory_swap_total\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 181, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Memory Swap Total\", \"optionName\": \"metric_nn2tdz9abbc_2sggcy1ol7\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -15, minute) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [0, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 11, \"datasource_name\": \"meter_vm_memory_swap 05/11/2021 19:02:48\", \"schema\": \"public\", \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+              "slice_name": "Memory Swap (MB)",
+              "viz_type": "line"
+            }
+          },
+          {
+            "__Slice__": {
+              "cache_timeout": null,
+              "datasource_name": "public.meter_vm_network 05/11/2021 19:32:01",
+              "datasource_type": "table",
+              "id": 12,
+              "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"46__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"to_timestamp\", \"groupby\": [], \"label_colors\": {}, \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Receive (KB/s)\", \"optionName\": \"metric_ljmguv5rybn_l8h0v0vtsdb\", \"sqlExpression\": \"MAX(network_receive) / 1024\"}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Transmit (KB/s)\", \"optionName\": \"metric_3dbcwpp0psf_11ho1if1mfu\", \"sqlExpression\": \"MAX(network_transmit)  / 1024\"}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"stacked_style\": \"stack\", \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -15, minute) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"area\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 12, \"datasource_name\": \"meter_vm_network 05/11/2021 19:32:01\", \"schema\": \"public\", \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+              "slice_name": "Network Bandwidth Usage (KB/s)",
+              "viz_type": "area"
+            }
+          },
+          {
+            "__Slice__": {
+              "cache_timeout": null,
+              "datasource_name": "public.meter_vm_filefd_allocated 05/11/2021 19:37:23",
+              "datasource_type": "table",
+              "id": 13,
+              "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"47__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"to_timestamp\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"filefd_allocated\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 186, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Allocated\", \"optionName\": \"metric_evtb6tst5z_gwu3wmxuni8\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -15, minute) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 13, \"datasource_name\": \"meter_vm_filefd_allocated 05/11/2021 19:37:23\", \"schema\": \"public\", \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+              "slice_name": "Filefd Allocated",
+              "viz_type": "line"
+            }
+          },
+          {
+            "__Slice__": {
+              "cache_timeout": null,
+              "datasource_name": "public.meter_vm_disk 05/11/2021 19:42:07",
+              "datasource_type": "table",
+              "id": 14,
+              "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"48__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"to_timestamp\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Disk Read\", \"optionName\": \"metric_k50ee4fd5wm_7uvd2ru6r3n\", \"sqlExpression\": \"MAX(disk_read) / 1024\"}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Disk Written\", \"optionName\": \"metric_e48xhxlhcrq_ojoz7bt228h\", \"sqlExpression\": \"MAX(disk_written) / 1024\"}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -15, minute) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 14, \"datasource_name\": \"meter_vm_disk 05/11/2021 19:42:07\", \"schema\": \"public\", \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+              "slice_name": "Disk R/W (KB/s)",
+              "viz_type": "line"
+            }
+          },
+          {
+            "__Slice__": {
+              "cache_timeout": null,
+              "datasource_name": "public.meter_vm_filesystem_percentage 05/11/2021 19:48:19",
+              "datasource_type": "table",
+              "id": 15,
+              "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"49__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"to_timestamp\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"hostname_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 191, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"/etc/hostname\", \"optionName\": \"metric_iugyj62etvc_ma80oia4s7\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"resolv_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 192, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"/etc/resolv.conf\", \"optionName\": \"metric_oi5um7u99je_2ck50sfzyhc\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"hosts_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 193, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"/etc/hosts\", \"optionName\": \"metric_j8drfeojrwi_qta8xtkb05\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 15, \"datasource_name\": \"meter_vm_filesystem_percentage 05/11/2021 19:48:19\", \"schema\": \"public\", \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+              "slice_name": "File System Mountpoint Usage (%)",
+              "viz_type": "line"
+            }
+          }
+        ],
+        "slug": null
+      }
+    }
+  ],
+  "datasources": [
+    {
+      "__SqlaTable__": {
+        "cache_timeout": null,
+        "columns": [
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "to_timestamp",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 25,
+              "is_active": true,
+              "is_dttm": true,
+              "python_date_format": null,
+              "table_id": 9,
+              "type": "DATETIME",
+              "uuid": "17ba005c-5f80-45dd-b3e9-648898f5f45d",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "tcp_curr_estab",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 26,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 9,
+              "type": "INT",
+              "uuid": "dbdd9acb-db0f-4411-985f-b3e4e3a4cd59",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "tcp_tw",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 27,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 9,
+              "type": "INT",
+              "uuid": "55366763-88a5-4a47-8ee2-be20474d7d3e",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "tcp_alloc",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 28,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 9,
+              "type": "INT",
+              "uuid": "449e7d53-2aea-41b3-92ee-2a2b2346049d",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "sockets_used",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 29,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 9,
+              "type": "INT",
+              "uuid": "6095ec0e-cf13-46b9-a58d-261f4a181f8d",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "udp_inuse",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 30,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 9,
+              "type": "INT",
+              "uuid": "27ee2306-5fac-4dff-b22b-88b418157f3a",
+              "verbose_name": null
+            }
+          }
+        ],
+        "database_id": 1,
+        "default_endpoint": null,
+        "description": null,
+        "extra": null,
+        "fetch_values_predicate": null,
+        "filter_select_enabled": false,
+        "main_dttm_col": null,
+        "metrics": [
+          {
+            "__SqlMetric__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "d3format": null,
+              "description": null,
+              "expression": "count(*)",
+              "extra": null,
+              "id": 9,
+              "metric_name": "count",
+              "metric_type": null,
+              "table_id": 9,
+              "uuid": "8a216a97-9ab2-47ba-8c2d-017d8e292102",
+              "verbose_name": null,
+              "warning_text": null
+            }
+          }
+        ],
+        "offset": 0,
+        "params": "{\"remote_id\": 9, \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+        "schema": "public",
+        "sql": "--cpu average used (%)\nselect\n  to_timestamp(t1.time_bucket::varchar, 'YYYYMMDDHH24MI'),\n  t1.value tcp_curr_estab,\n  t2.value tcp_tw,\n  t3.value tcp_alloc,\n  t4.value sockets_used,\n  t5.value udp_inuse\nfrom meter_vm_tcp_curr_estab t1\ninner join meter_vm_tcp_tw t2 on t1.id = t2.id\ninner join meter_vm_tcp_alloc t3 on t3.id = t2.id\ninner join meter_vm_sockets_used t4 on t4.id = t3.id\ninner join meter_vm_udp_inuse t5 on t5.id = t4.id",
+        "table_name": "meter_vm 05/11/2021 18:47:23",
+        "template_params": null
+      }
+    },
+    {
+      "__SqlaTable__": {
+        "cache_timeout": null,
+        "columns": [
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "to_timestamp",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 17,
+              "is_active": true,
+              "is_dttm": true,
+              "python_date_format": null,
+              "table_id": 7,
+              "type": "DATETIME",
+              "uuid": "604dbddc-32eb-4ab2-afc3-42c6e53a260d",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "cpu_load_1",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 18,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 7,
+              "type": "INT",
+              "uuid": "ae3b7e4b-347e-43c6-bfcb-2c2d6eac71da",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "cpu_load_5",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 19,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 7,
+              "type": "INT",
+              "uuid": "72f7df28-5cdc-4b1a-82cd-8f920a8830f0",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "cpu_load_15",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 20,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 7,
+              "type": "INT",
+              "uuid": "ea804e0f-d696-4933-ad62-86b7f56f6c23",
+              "verbose_name": null
+            }
+          }
+        ],
+        "database_id": 1,
+        "default_endpoint": null,
+        "description": null,
+        "extra": null,
+        "fetch_values_predicate": null,
+        "filter_select_enabled": false,
+        "main_dttm_col": null,
+        "metrics": [
+          {
+            "__SqlMetric__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "d3format": null,
+              "description": null,
+              "expression": "count(*)",
+              "extra": null,
+              "id": 7,
+              "metric_name": "count",
+              "metric_type": null,
+              "table_id": 7,
+              "uuid": "01e73e8f-5619-4ff3-8a66-6c116bd3c0f3",
+              "verbose_name": null,
+              "warning_text": null
+            }
+          }
+        ],
+        "offset": 0,
+        "params": "{\"remote_id\": 7, \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+        "schema": "public",
+        "sql": "--cpu average used (%)\nselect\n  to_timestamp(t1.time_bucket::varchar, 'YYYYMMDDHH24MI'),\n  t1.value cpu_load_1,\n  t2.value cpu_load_5,\n  t3.value cpu_load_15\nfrom meter_vm_cpu_load1 t1\ninner join meter_vm_cpu_load5 t2 on t1.id = t2.id\ninner join meter_vm_cpu_load15 t3 on t3.id = t2.id",
+        "table_name": "meter_vm_cpu_load 05/11/2021 18:32:46",
+        "template_params": null
+      }
+    },
+    {
+      "__SqlaTable__": {
+        "cache_timeout": null,
+        "columns": [
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "to_timestamp",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 43,
+              "is_active": true,
+              "is_dttm": true,
+              "python_date_format": null,
+              "table_id": 12,
+              "type": "DATETIME",
+              "uuid": "11d912d5-9279-4640-a79f-1a374206e25d",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "filefd_allocated",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 44,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 12,
+              "type": "INT",
+              "uuid": "daa28ae1-c10f-4db4-8071-697ea7c86609",
+              "verbose_name": null
+            }
+          }
+        ],
+        "database_id": 1,
+        "default_endpoint": null,
+        "description": null,
+        "extra": null,
+        "fetch_values_predicate": null,
+        "filter_select_enabled": false,
+        "main_dttm_col": null,
+        "metrics": [
+          {
+            "__SqlMetric__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "d3format": null,
+              "description": null,
+              "expression": "count(*)",
+              "extra": null,
+              "id": 12,
+              "metric_name": "count",
+              "metric_type": null,
+              "table_id": 12,
+              "uuid": "4d985ad8-d77b-44e3-8358-97a7f09ff1ea",
+              "verbose_name": null,
+              "warning_text": null
+            }
+          }
+        ],
+        "offset": 0,
+        "params": "{\"remote_id\": 12, \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+        "schema": "public",
+        "sql": "select\n  to_timestamp(t1.time_bucket::varchar, 'YYYYMMDDHH24MI'),\n  t1.value filefd_allocated\nfrom meter_vm_filefd_allocated t1",
+        "table_name": "meter_vm_filefd_allocated 05/11/2021 19:37:23",
+        "template_params": null
+      }
+    },
+    {
+      "__SqlaTable__": {
+        "cache_timeout": null,
+        "columns": [
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "to_timestamp",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 21,
+              "is_active": true,
+              "is_dttm": true,
+              "python_date_format": null,
+              "table_id": 8,
+              "type": "DATETIME",
+              "uuid": "8488b1a3-ce9a-445b-8c12-c86f895e6693",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "hostname_value",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 22,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 8,
+              "type": "INT",
+              "uuid": "ce7c2f15-0445-4001-bfbe-5f8068ec7ed6",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "resolv_value",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 23,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 8,
+              "type": "INT",
+              "uuid": "a5c962fb-97e2-4f0a-b6ec-02913a06f674",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "hosts_value",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 24,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 8,
+              "type": "INT",
+              "uuid": "45051ecc-1777-4037-8fce-659a677bccdd",
+              "verbose_name": null
+            }
+          }
+        ],
+        "database_id": 1,
+        "default_endpoint": null,
+        "description": null,
+        "extra": null,
+        "fetch_values_predicate": null,
+        "filter_select_enabled": false,
+        "main_dttm_col": null,
+        "metrics": [
+          {
+            "__SqlMetric__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "d3format": null,
+              "description": null,
+              "expression": "count(*)",
+              "extra": null,
+              "id": 8,
+              "metric_name": "count",
+              "metric_type": null,
+              "table_id": 8,
+              "uuid": "2d1c3340-7bff-4f1d-b346-4e7f6f60850b",
+              "verbose_name": null,
+              "warning_text": null
+            }
+          }
+        ],
+        "offset": 0,
+        "params": "{\"remote_id\": 8, \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+        "schema": "public",
+        "sql": "select\n  to_timestamp(dd.time_bucket, 'YYYYMMDDHH24MI'),\n  substr(split_part(ap.value, '|', 1), 15)::integer hostname_value,\n  substr(split_part(ap.value, '|', 2), 18)::integer resolv_value,\n  substr(split_part(ap.value, '|', 3), 12)::integer hosts_value\nfrom meter_vm_filesystem_percentage ap\nright join (\nSELECT to_char(dd, 'YYYYMMDDHH24MI') \"time_bucket\"\nFROM generate_series(\n  current_timestamp - '15 minutes'::interval,\n  current_timestamp,\n  '1 minute'::interval) dd\n) dd on (ap.time_bucket = dd.time_bucket::bigint)",
+        "table_name": "meter_vm_filesystem_percentage 05/11/2021 19:48:19",
+        "template_params": null
+      }
+    },
+    {
+      "__SqlaTable__": {
+        "cache_timeout": null,
+        "columns": [
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "column_name": "to_timestamp",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 51,
+              "is_active": true,
+              "is_dttm": true,
+              "python_date_format": null,
+              "table_id": 15,
+              "type": "DATETIME",
+              "uuid": "0be7b552-396b-4064-bafa-3da2f16c9f78",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "column_name": "memory_total",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 52,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 15,
+              "type": "INT",
+              "uuid": "c0902074-7905-4ad2-8c4b-2601e7496c25",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "column_name": "memory_available",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 53,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 15,
+              "type": "INT",
+              "uuid": "ce460434-67eb-4f90-855c-7796c6eb48b6",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "column_name": "memory_used",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 54,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 15,
+              "type": "INT",
+              "uuid": "f2accb9c-03b5-47e5-9f11-b2a795a70cec",
+              "verbose_name": null
+            }
+          }
+        ],
+        "database_id": 1,
+        "default_endpoint": null,
+        "description": null,
+        "extra": null,
+        "fetch_values_predicate": null,
+        "filter_select_enabled": false,
+        "main_dttm_col": null,
+        "metrics": [
+          {
+            "__SqlMetric__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "d3format": null,
+              "description": null,
+              "expression": "count(*)",
+              "extra": null,
+              "id": 15,
+              "metric_name": "count",
+              "metric_type": null,
+              "table_id": 15,
+              "uuid": "d01f43a6-8387-44a4-aa99-21a4e9ef8b13",
+              "verbose_name": null,
+              "warning_text": null
+            }
+          }
+        ],
+        "offset": 0,
+        "params": "{\"remote_id\": 15, \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+        "schema": "public",
+        "sql": "--cpu average used (%)\nselect\n  to_timestamp(t1.time_bucket::varchar, 'YYYYMMDDHH24MI'),\n  t1.value memory_total,\n  t2.value memory_available,\n  t3.value memory_used\nfrom meter_vm_memory_total t1\ninner join meter_vm_memory_available t2 on t1.id = t2.id\ninner join meter_vm_memory_used t3 on t3.id = t2.id",
+        "table_name": "meter_vm_memory 05/11/2021 18:54:23",
+        "template_params": null
+      }
+    },
+    {
+      "__SqlaTable__": {
+        "cache_timeout": null,
+        "columns": [
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "to_timestamp",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 40,
+              "is_active": true,
+              "is_dttm": true,
+              "python_date_format": null,
+              "table_id": 11,
+              "type": "DATETIME",
+              "uuid": "34769541-5a5e-4601-8751-7a43021e3cdb",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "disk_read",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 41,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 11,
+              "type": "INT",
+              "uuid": "b4628aad-4731-4770-a6a8-a987b3f60922",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "disk_written",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 42,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 11,
+              "type": "INT",
+              "uuid": "8a0f138b-2de1-4a9a-85c5-56fbd4960fae",
+              "verbose_name": null
+            }
+          }
+        ],
+        "database_id": 1,
+        "default_endpoint": null,
+        "description": null,
+        "extra": null,
+        "fetch_values_predicate": null,
+        "filter_select_enabled": false,
+        "main_dttm_col": null,
+        "metrics": [
+          {
+            "__SqlMetric__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "d3format": null,
+              "description": null,
+              "expression": "count(*)",
+              "extra": null,
+              "id": 11,
+              "metric_name": "count",
+              "metric_type": null,
+              "table_id": 11,
+              "uuid": "d656071b-6df9-4c38-accf-3b472308f572",
+              "verbose_name": null,
+              "warning_text": null
+            }
+          }
+        ],
+        "offset": 0,
+        "params": "{\"remote_id\": 11, \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+        "schema": "public",
+        "sql": "select\n  to_timestamp(t1.time_bucket::varchar, 'YYYYMMDDHH24MI'),\n  t1.value disk_read,\n  t2.value disk_written\nfrom meter_vm_disk_read t1\ninner join meter_vm_disk_written t2 on t1.id = t2.id",
+        "table_name": "meter_vm_disk 05/11/2021 19:42:07",
+        "template_params": null
+      }
+    },
+    {
+      "__SqlaTable__": {
+        "cache_timeout": null,
+        "columns": [
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "column_name": "to_timestamp",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 48,
+              "is_active": true,
+              "is_dttm": true,
+              "python_date_format": null,
+              "table_id": 14,
+              "type": "DATETIME",
+              "uuid": "2e58f48f-e7ae-486f-8cd3-be0a17d8b576",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "column_name": "network_receive",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 49,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 14,
+              "type": "INT",
+              "uuid": "61b62695-1cc5-4435-a7a4-1d95f5e102c5",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "column_name": "network_transmit",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 50,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 14,
+              "type": "INT",
+              "uuid": "d6a9886d-167b-475f-a00d-fbcd2fb6244b",
+              "verbose_name": null
+            }
+          }
+        ],
+        "database_id": 1,
+        "default_endpoint": null,
+        "description": null,
+        "extra": null,
+        "fetch_values_predicate": null,
+        "filter_select_enabled": false,
+        "main_dttm_col": null,
+        "metrics": [
+          {
+            "__SqlMetric__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "d3format": null,
+              "description": null,
+              "expression": "count(*)",
+              "extra": null,
+              "id": 14,
+              "metric_name": "count",
+              "metric_type": null,
+              "table_id": 14,
+              "uuid": "d451eebf-89ad-4569-b26d-c975e9ed018b",
+              "verbose_name": null,
+              "warning_text": null
+            }
+          }
+        ],
+        "offset": 0,
+        "params": "{\"remote_id\": 14, \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+        "schema": "public",
+        "sql": "select\n  to_timestamp(t1.time_bucket::varchar, 'YYYYMMDDHH24MI'),\n  t1.value network_receive,\n  t2.value network_transmit\nfrom meter_vm_network_receive t1\ninner join meter_vm_network_transmit t2 on t1.id = t2.id",
+        "table_name": "meter_vm_network 05/11/2021 19:32:01",
+        "template_params": null
+      }
+    },
+    {
+      "__SqlaTable__": {
+        "cache_timeout": null,
+        "columns": [
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "to_timestamp",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 31,
+              "is_active": true,
+              "is_dttm": true,
+              "python_date_format": null,
+              "table_id": 10,
+              "type": "DATETIME",
+              "uuid": "99b6f189-9fe1-41ce-aaf0-e78392dbbf7d",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "system_value",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 32,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 10,
+              "type": "INT",
+              "uuid": "7bcb5c6a-f606-47e3-abf0-5e40fb82a923",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "softirq_value",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 33,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 10,
+              "type": "INT",
+              "uuid": "580cf60e-27ed-4529-b158-d7c8ae39b011",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "idle_value",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 34,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 10,
+              "type": "INT",
+              "uuid": "915e14cc-3fd8-4cad-a0ff-d783d37ff7ca",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "steal_value",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 35,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 10,
+              "type": "INT",
+              "uuid": "4fad575f-6425-4d3c-9ecc-572513a6bdfc",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "irq_value",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 36,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 10,
+              "type": "INT",
+              "uuid": "b09cb7e4-b028-4ceb-aab7-46848a503281",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "iowait_value",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 37,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 10,
+              "type": "INT",
+              "uuid": "8533164f-0e60-4d87-8a49-c7825fc49e0c",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "user_value",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 38,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 10,
+              "type": "INT",
+              "uuid": "33deaf96-d674-4e1c-b5e9-8db8addc8d04",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "nice_value",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 39,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 10,
+              "type": "INT",
+              "uuid": "195aceb9-8174-480d-a815-674af371d895",
+              "verbose_name": null
+            }
+          }
+        ],
+        "database_id": 1,
+        "default_endpoint": null,
+        "description": null,
+        "extra": null,
+        "fetch_values_predicate": null,
+        "filter_select_enabled": false,
+        "main_dttm_col": null,
+        "metrics": [
+          {
+            "__SqlMetric__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "d3format": null,
+              "description": null,
+              "expression": "count(*)",
+              "extra": null,
+              "id": 10,
+              "metric_name": "count",
+              "metric_type": null,
+              "table_id": 10,
+              "uuid": "c77a6c3f-1e75-42e8-8d7f-50ebc52bd775",
+              "verbose_name": null,
+              "warning_text": null
+            }
+          }
+        ],
+        "offset": 0,
+        "params": "{\"remote_id\": 10, \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+        "schema": "public",
+        "sql": "--cpu average used (%)\nselect\n  to_timestamp(dd.time_bucket, 'YYYYMMDDHH24MI'),\n  substr(split_part(ap.value, '|', 1), 6 + 2)::integer system_value,\n  substr(split_part(ap.value, '|', 2), 7 + 2)::integer softirq_value,\n  substr(split_part(ap.value, '|', 3), 4 + 2)::integer idle_value,\n  substr(split_part(ap.value, '|', 4), 5 + 2)::integer steal_value,\n  substr(split_part(ap.value, '|', 5), 3 + 2)::integer irq_value,\n  substr(split_part(ap.value, '|', 6), 6 + 2)::integer iowait_value,\n  substr(split_part(ap.value, '|', 7), 4 + 2)::integer user_value,\n  substr(split_part(ap.value, '|', 8), 4 + 2)::integer nice_value\nfrom meter_vm_cpu_average_used ap\nright join (\nSELECT to_char(dd, 'YYYYMMDDHH24MI') \"time_bucket\"\nFROM generate_series(\n  current_timestamp - '15 minutes'::interval,\n  current_timestamp,\n  '1 minute'::interval) dd\n) dd on (ap.time_bucket = dd.time_bucket::bigint)",
+        "table_name": "meter_vm_cpu_average_used 05/11/2021 18:13:48",
+        "template_params": null
+      }
+    },
+    {
+      "__SqlaTable__": {
+        "cache_timeout": null,
+        "columns": [
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "column_name": "to_timestamp",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 45,
+              "is_active": true,
+              "is_dttm": true,
+              "python_date_format": null,
+              "table_id": 13,
+              "type": "DATETIME",
+              "uuid": "fa651656-2aee-4ebb-a24a-a85eda4fcf51",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "column_name": "memory_swap_free",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 46,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 13,
+              "type": "INT",
+              "uuid": "c9384927-23bc-4a29-be32-a05711175285",
+              "verbose_name": null
+            }
+          },
+          {
+            "__TableColumn__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "column_name": "memory_swap_total",
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:21"
+              },
+              "description": null,
+              "expression": null,
+              "filterable": true,
+              "groupby": true,
+              "id": 47,
+              "is_active": true,
+              "is_dttm": false,
+              "python_date_format": null,
+              "table_id": 13,
+              "type": "INT",
+              "uuid": "49baa418-b4e2-4e6d-aa92-46c527083218",
+              "verbose_name": null
+            }
+          }
+        ],
+        "database_id": 1,
+        "default_endpoint": null,
+        "description": null,
+        "extra": null,
+        "fetch_values_predicate": null,
+        "filter_select_enabled": false,
+        "main_dttm_col": null,
+        "metrics": [
+          {
+            "__SqlMetric__": {
+              "changed_by_fk": 1,
+              "changed_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "created_by_fk": 1,
+              "created_on": {
+                "__datetime__": "2021-05-13T17:19:20"
+              },
+              "d3format": null,
+              "description": null,
+              "expression": "count(*)",
+              "extra": null,
+              "id": 13,
+              "metric_name": "count",
+              "metric_type": null,
+              "table_id": 13,
+              "uuid": "02d7ea85-33d9-4f8b-9c90-61f579302325",
+              "verbose_name": null,
+              "warning_text": null
+            }
+          }
+        ],
+        "offset": 0,
+        "params": "{\"remote_id\": 13, \"database_name\": \"postgres\", \"import_time\": 1620926360}",
+        "schema": "public",
+        "sql": "--cpu average used (%)\nselect\n  to_timestamp(t1.time_bucket::varchar, 'YYYYMMDDHH24MI'),\n  t1.value memory_swap_free,\n  t2.value memory_swap_total\nfrom meter_vm_memory_swap_free t1\ninner join meter_vm_memory_swap_total t2 on t1.id = t2.id",
+        "table_name": "meter_vm_memory_swap 05/11/2021 19:02:48",
+        "template_params": null
+      }
+    }
+  ]
+}
