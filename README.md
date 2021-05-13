@@ -27,10 +27,6 @@ cd orbital
 gradlew.bat composeUp && timeout 10 && setup-superset.bat
 ```
 
-### Available Services
-- Apache Superset: http://167.99.134.5:8888
-- Apache SkyWalking: http://167.99.134.5:9999
-
 ## Using Superset
 - Add SkyWalking database to Superset
   - `postgresql+psycopg2://postgres:123456@postgres:5432/postgres`
