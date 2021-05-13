@@ -30,9 +30,8 @@ gradlew.bat composeUp && timeout 10 && setup-superset.bat
 ## Configuration
 - Add SkyWalking database to Superset
   - `postgresql+psycopg2://postgres:123456@postgres:5432/postgres`
-
 - Add SkyWalking dashboards to Superset
- - Settings > Import Dashboard
-   - https://github.com/sourceplusplus/moonray-ui/blob/master/dashboards/database.json
-   - https://github.com/sourceplusplus/moonray-ui/blob/master/dashboards/global.json
-   - https://github.com/sourceplusplus/moonray-ui/blob/master/dashboards/vm.json
+  - Settings > Import Dashboard
+    - https://github.com/sourceplusplus/moonray-ui/blob/master/dashboards/database.json
+    - https://github.com/sourceplusplus/moonray-ui/blob/master/dashboards/global.json
+    - https://github.com/sourceplusplus/moonray-ui/blob/master/dashboards/vm.json
